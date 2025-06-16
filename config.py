@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AboutBotMaker")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/KING_BOT_UPDATE")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/musicsupdate")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+qW8Yywf45i1iZTFl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -89,21 +89,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/khjy8d.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/zggzoe.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/khjy8d.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/zggzoe.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/khjy8d.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/khjy8d.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/khjy8d.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/khjy8d.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/khjy8d.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/khjy8d.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/khjy8d.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/khjy8d.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/khjy8d.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/khjy8d.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/zggzoe.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/zggzoe.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/zggzoe.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/zggzoe.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/zggzoe.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/zggzoe.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/zggzoe.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/zggzoe.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/zggzoe.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/zggzoe.jpg"
 
 
 def time_to_seconds(time):
